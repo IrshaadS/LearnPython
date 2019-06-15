@@ -31,3 +31,8 @@ for i in range(4):
     transposed2.append(transposed_row)
 
 print(transposed2)
+
+# built in function
+print(list(zip(*matrix)))
+
+
